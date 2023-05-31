@@ -1,0 +1,10 @@
+{
+  "marquee.widgets.npm-stats.packageNames": ["react-native-perfect-button"],
+  "conventionalCommits.scopes": [
+    "etc.",
+    "native",
+    "react",
+    "document",
+    "config"
+  ]
+}

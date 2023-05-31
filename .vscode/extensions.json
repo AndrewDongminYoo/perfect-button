@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "vivaxy.vscode-conventional-commits",
+    "github.vscode-github-actions",
+    "github.vscode-pull-request-github",
+    "codezombiech.gitignore",
+    "wix.vscode-import-cost",
+    "eamodio.gitlens",
+    "bierner.jsdoc-markdown-highlighting",
+    "davidanson.vscode-markdownlint",
+    "quicktype.quicktype",
+    "orta.vscode-react-native-storybooks",
+    "pflannery.vscode-versionlens",
+    "msjsdiag.vscode-react-native"
+  ]
+}
