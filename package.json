@@ -1,7 +1,7 @@
 {
   "name": "react-native-perfect-button",
   "version": "0.1.0",
-  "description": "test",
+  "description": "\"Perfect Button Component\" is a UI component library for use in React native applications that proposes a whole range of extensible ideas for the sole element called a button, with a variety of stylistic and functional properties.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -36,23 +36,44 @@
     "bootstrap": "yarn example && yarn install"
   },
   "keywords": [
-    "react-native",
+    "android",
+    "design-system",
     "ios",
-    "android"
+    "react-native",
+    "storybook",
+    "testable",
+    "UI/UX"
   ],
   "repository": "https://github.com/AndrewDongminYoo/perfect-button",
-  "author": "Dongmin,Yoo <ydm2790@gmail.com> (https://github.com/AndrewDongminYoo)",
-  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Jiwon,Choi",
+      "email": "devjeanmarlon@gmail.com",
+      "url": "https://github.com/devjiwonchoi"
+    },
+    {
+      "name": "Dongmin,Yoo",
+      "email": "ydm2790@gmail.com",
+      "url": "https://github.com/AndrewDongminYoo"
+    },
+    {
+      "name": "Jimmy(HoJun Lee)",
+      "email": "zeallat94@gmail.com",
+      "url": "https://github.com/zeallat"
+    }
+  ],
+  "license": "(MIT OR Apache-2.0)",
   "bugs": {
-    "url": "https://github.com/AndrewDongminYoo/perfect-button/issues"
+    "url": "https://github.com/AndrewDongminYoo/perfect-button/issues",
+    "email": "ydm2790@gmail.com"
   },
   "homepage": "https://github.com/AndrewDongminYoo/perfect-button#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.2.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
@@ -72,88 +93,18 @@
     "release-it": "^15.0.0",
     "typescript": "^4.5.2"
   },
-  "resolutions": {
-    "@types/react": "17.0.21"
-  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
+  "resolutions": {
+    "@babel/core": "7.22.1",
+    "@babel/preset-env": "^7.1.6",
+    "@types/react": "17.0.21",
+    "uglify-es": "npm:uglify-js@^3.13.0"
+  },
   "engines": {
     "node": ">= 16.0.0"
   },
-  "packageManager": "^yarn@1.22.15",
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "release-it": {
-    "git": {
-      "commitMessage": "chore: release ${version}",
-      "tagName": "v${version}"
-    },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
-    }
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@react-native-community",
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
-    }
-  },
-  "eslintIgnore": [
-    "node_modules/",
-    "lib/"
-  ],
-  "prettier": {
-    "quoteProps": "consistent",
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "es5",
-    "useTabs": false
-  },
-  "react-native-builder-bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
-    ]
-  }
+  "packageManager": "yarn@1.22.19"
 }

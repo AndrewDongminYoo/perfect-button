@@ -1,6 +1,6 @@
 # react-native-perfect-button
 
-Our toy project "Perfect Button Component" is a UI component library for use in React native applications that proposes a whole range of extensible ideas for the sole element called a button, with a variety of stylistic and functional properties. 
+Our toy project "Perfect Button Component" is a UI component library for use in React native applications that proposes a whole range of extensible ideas for the sole element called a button, with a variety of stylistic and functional properties.
 
 ## Installation
 

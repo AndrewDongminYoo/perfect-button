@@ -1,3 +1,7 @@
 *.pbxproj -text
 # specific for windows script files
 *.bat text eol=crlf
+
+# This ensures that the file remains read-only after it receives a clone.
+.yarn/releases/yarn-1.22.19.cjs -crlf -diff -merge -text -cherry-pick
+.yarn/releases/yarn-1.22.19.cjs -diff -merge -text -cherry-pick -crlf -checkout
