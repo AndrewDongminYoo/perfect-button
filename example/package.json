@@ -9,18 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~48.0.18",
+    "expo": "~48.0.19",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
-    "react-native": "0.71.8",
     "react-dom": "18.2.0",
-    "react-native-web": "~0.18.10"
+    "react-native": "0.71.11",
+    "react-native-web": "~0.19.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "@expo/webpack-config": "^0.17.2",
-    "babel-loader": "^8.1.0"
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@expo/webpack-config": "^18.1.0",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "webpack": "^5.87.0"
   },
   "private": true
 }
